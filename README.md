@@ -18,15 +18,7 @@ There are several custom hooks to provide custom functionalities (like form vali
 
 ## Running the app
 
-There are several scripts, you can stay in the root directory or move to the /backend and /client folders to run and install backend and frontend separately
-
-## Install the App
-
-You can install backend and frontend dependecies one at the time or use:
-
-### `npm run installFull`
-
-## Development mode
+### Development mode
 
 You can run the app in development mode using nodemon for the backend and the live reload of creat react api
 

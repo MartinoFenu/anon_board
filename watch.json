@@ -1,0 +1,21 @@
+{
+     "install": {
+       "include": [
+         "^package\\.json$",
+         "^\\.env$",
+         "^backend/package\\.json$",
+         "^backend/\\.env$",
+         "^client/package\\.json$"
+       ]
+     },
+     "restart": {
+       "exclude": [
+         "^client/"
+       ],
+       "include": [
+         "^server/",
+         "^watch\\.json$"
+       ]
+     },
+     "throttle": 1000
+   }
